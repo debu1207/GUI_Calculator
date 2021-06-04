@@ -1,0 +1,9 @@
+From developer: Debu Patra
+
+The executable file is created using the pyinstaller library. I recommend to not open this .exe file directly in the local system.
+It may not open and also give errors like UNKNOWN SOURCE or Virus and Threat protection errors. 
+To use this application atleast now please checkout the given link to avoid this issue. 
+https://www.wikihow.com/Open-EXE-Files
+
+Best wishes to GATE Aspirants and all users of this application.
+
