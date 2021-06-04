@@ -1,34 +1,37 @@
+# Importing all the required libraries
 from tkinter import *
 from tkinter import messagebox
 import math
 import numpy
 
-win = Tk()
+win = Tk() # Tk class object
+# defining the icon of the application
 win.iconbitmap("Dakirby309-Simply-Styled-Calculator.ico")
+# Defining the size and fixing it
 win.geometry("701x330")
 win.resizable(0, 0)
 win.title("GATE_CALC_1.0")
 
-
+# function for click action
 def btn_click(item):
     global expression
     expression = expression + str(item)
     input_text.set(expression)
 
-
+# function for clearing the input window
 def bt_clear():
     global expression
     expression = ""
     input_text.set("")
 
-
+# function for the function of equal to
 def bt_equal():
     global expression
     result = str(eval(expression))  # 'eval':This function is used to evaluates the string expression directly
     input_text.set(result)
     expression = ""
 
-
+# function for removing a character from the input window
 def back_space():
     global expression
     result = str(expression[:-1])
@@ -199,7 +202,8 @@ def e_to_x(n):
     result = str(math.e ** (int(n)))
     input_text.set(result)
 
-
+# function for information box.
+# To show the developer information
 def info_box():
     detail = """
         Specially designed GATE calculator 
@@ -221,6 +225,9 @@ def info_box():
 
 expression = ""
 input_text = StringVar()
+
+#--------------------------------------------------------------------------------------
+# Defining the structure of buttons and input window etc.
 
 input_frame = Frame(win, width=690, height=50, bd=0, highlightbackground="black", highlightcolor="blue",
                     highlightthickness=1)
