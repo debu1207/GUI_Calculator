@@ -6,3 +6,7 @@ So, that they can get used to with the format of that virtual calculator.
 Since, this calculator is only available as an mobile application, students don't get an actual experience of using it on a computer
 as they will do in the examination.
 So, in this project I created a GUI calculator application that is similar to the GATE virtual Calculator.
+
+
+![calc](https://user-images.githubusercontent.com/66241098/125989619-606fd576-03c2-4175-b8df-c2e972dfe09a.jpg)
+
